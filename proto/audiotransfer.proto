@@ -1,0 +1,15 @@
+syntax = "proto3";
+package audiotransfer;
+
+service Transfer{
+    rpc AudioTransfer(stream Request) returns (stream Response);
+}
+
+
+message Request {
+
+}
+
+message Response {
+
+}
